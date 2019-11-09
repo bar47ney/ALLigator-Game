@@ -1,5 +1,5 @@
 # PROJECT ALLigator
-# TRTPO PTOJECT
+# TRTPO PROJECT
 
 # Contents
 1. [Documentation](https://github.com/bar47ney/trtpo_two/tree/master/docs) <br>
