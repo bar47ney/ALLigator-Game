@@ -11,3 +11,8 @@
 ![Диаграмма активностей 1](https://github.com/bar47ney/trtpo_two/blob/master/Images/Activity.png)
 
 <a name="2"/>
+
+# 2. Просмотр рейтинга
+![Диаграмма активностей 2](https://github.com/bar47ney/trtpo_two/blob/master/Images/Activity2.png)
+
+<a name="3"/>
