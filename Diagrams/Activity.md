@@ -16,3 +16,6 @@
 ![Диаграмма активностей 2](https://github.com/bar47ney/trtpo_two/blob/master/Images/Activity2.png)
 
 <a name="3"/>
+
+# 3. Просмотр правил игры
+![Диаграмма активностей 3](https://github.com/bar47ney/trtpo_two/blob/master/Images/Activity3.png)
