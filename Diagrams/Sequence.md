@@ -18,4 +18,4 @@
 <a name="3"/>
 
 # 3. Просмотр правил игры
-![Диаграмма последовательностей 3]()
+![Диаграмма последовательностей 3](https://github.com/bar47ney/trtpo_two/blob/master/Images/Sequence2.png)
