@@ -8,7 +8,7 @@
 <a name="1"/>
 
 # 1. Начать игру 
-![Диаграмма активностей 1](https://github.com/bar47ney/trtpo_two/blob/master/Images/Activity.png)
+![Диаграмма активностей 1](https://github.com/bar47ney/trtpo_two/blob/master/Images/Activity_new_one.png)
 
 <a name="2"/>
 
