@@ -7,9 +7,9 @@
 <a name="1"/>
 
 # 1. Партия игры 
-![Партия игры](https://github.com/bar47ney/trtpo_two/blob/master/Images/Activity.png)
+![Партия игры](https://github.com/bar47ney/trtpo_two/blob/master/Images/state1_1.png)
 
 <a name="2"/>
 
 # 2. Конец игры
-![Конец игры]()
+![Конец игры](https://github.com/bar47ney/trtpo_two/blob/master/Images/state_two.png)
