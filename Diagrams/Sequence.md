@@ -13,7 +13,7 @@
 <a name="2"/>
 
 # 2. Просмотр рейтинга
-![Диаграмма последовательностей 2]()
+![Диаграмма последовательностей 2](https://github.com/bar47ney/trtpo_two/blob/master/Images/Sequence3.png)
 
 <a name="3"/>
 
