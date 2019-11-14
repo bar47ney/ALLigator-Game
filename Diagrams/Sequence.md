@@ -8,7 +8,7 @@
 <a name="1"/>
 
 # 1. Начать игру 
-![Диаграмма последовательностей 1](https://github.com/bar47ney/trtpo_two/blob/master/Images/Sequence1_2.png)
+![Диаграмма последовательностей 1](https://github.com/bar47ney/trtpo_two/blob/master/Images/Sequence1_4.png)
 
 <a name="2"/>
 
