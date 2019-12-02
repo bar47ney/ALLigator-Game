@@ -25,7 +25,7 @@ public class PlayGameWindowTwo {
 
     public void display(Stage primaryStage, Scene scenePGW, Player playerPlay, List<Hero> heroes, int n) {
 
-        primaryStage.setTitle("Game");
+        primaryStage.setTitle("Game"); //fff
         primaryStage.setResizable(true);
         BorderPane root = new BorderPane();
         Scene scene = new Scene(root, 1280, 720);
