@@ -4,6 +4,7 @@ import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
@@ -23,9 +24,16 @@ import java.util.Random;
  */
 public class PlayGameWindowTwo {
 
+    int counter = 0;
+    double total = 0;
+    double total_buffer = 1000;
+    double k_help_buffer = 1;
+    Hero heroAnswer = new Hero();
+
     public void display(Stage primaryStage, Scene scenePGW, Player playerPlay, List<Hero> heroes, int n) {
 
-        primaryStage.setTitle("Game"); //fff
+
+        primaryStage.setTitle("Game");
         primaryStage.setResizable(true);
         BorderPane root = new BorderPane();
         Scene scene = new Scene(root, 1280, 720);
@@ -76,7 +84,47 @@ public class PlayGameWindowTwo {
         backButton.setPrefSize(400, 50);
         gridpane.add(backButton, 1, 7);
 
+        TextField answerField = new TextField();
+        gridpane.add(answerField, 2, 6);
+
+
         getHelpButton.setOnAction(new EventHandler<ActionEvent>() {
+            public void handle(ActionEvent event) {
+
+                if (counter < 4) {
+                    ListIterator<Hero> heroListIterator = heroes.listIterator();
+                    Hero hero = new Hero();
+                    Random random = new Random();
+                    int m = random.nextInt(10);
+                    int j = n * 10;
+                    int k = 0;
+                    while (k < j + m + 1) {
+                        hero = heroListIterator.next();
+                        heroAnswer = hero;
+                        k++;
+                        k_help_buffer = k_help_buffer - 0.2;
+                    }
+
+                    TextField password2Field = new TextField(hero.getSetting());
+                    gridpane.add(password2Field, 1, 2);
+
+                    counter++;
+                } else {
+                    Alert alert = new Alert(Alert.AlertType.INFORMATION);
+                    alert.setHeaderText("Подсказки");
+                    alert.setContentText("Кол-во подсказок закончилось!");
+                    alert.showAndWait();
+                }
+
+
+               /* Label helpLabel = new Label();
+                gridpane.add(helpLabel, 1, 2);
+                helpLabel.setPrefSize(300, 25);*/
+
+            }
+        });
+
+        setAnswer.setOnAction(new EventHandler<ActionEvent>() {
             public void handle(ActionEvent event) {
 
                 ListIterator<Hero> heroListIterator = heroes.listIterator();
@@ -89,16 +137,13 @@ public class PlayGameWindowTwo {
                     hero = heroListIterator.next();
                     k++;
                 }
+                if (answerField.getText().equals(hero.getName())) {
+                    playerPlay.setTotal(playerPlay.getTotal() + total_buffer * k_help_buffer * hero.getK_hero()*heroAnswer.getK_setting());
 
-                TextField password2Field = new TextField(hero.getSetting());
-                gridpane.add(password2Field, 1, 2);
-
-               /* Label helpLabel = new Label();
-                gridpane.add(helpLabel, 1, 2);
-                helpLabel.setPrefSize(300, 25);*/
-
+                }
             }
         });
+
 
         backButton.setOnAction(new EventHandler<ActionEvent>() {
             public void handle(ActionEvent event) {
