@@ -27,7 +27,7 @@ public class PlayGameWindowTwo {
     int counter = 0;
     double total = 0;
     double total_buffer = 1000;
-    double k_help_buffer = 1;
+    double k_help_buffer = 1.5;
     Hero heroAnswer = new Hero();
 
     public void display(Stage primaryStage, Scene scenePGW, Player playerPlay, List<Hero> heroes, int n) {
@@ -102,12 +102,11 @@ public class PlayGameWindowTwo {
                         hero = heroListIterator.next();
                         heroAnswer = hero;
                         k++;
-                        k_help_buffer = k_help_buffer - 0.2;
                     }
 
                     TextField password2Field = new TextField(hero.getSetting());
                     gridpane.add(password2Field, 1, 2);
-
+                    k_help_buffer = k_help_buffer - 0.2;
                     counter++;
                 } else {
                     Alert alert = new Alert(Alert.AlertType.INFORMATION);
@@ -138,8 +137,22 @@ public class PlayGameWindowTwo {
                     k++;
                 }
                 if (answerField.getText().equals(hero.getName())) {
-                    playerPlay.setTotal(playerPlay.getTotal() + total_buffer * k_help_buffer * hero.getK_hero()*heroAnswer.getK_setting());
-
+                    playerPlay.setTotal(playerPlay.getTotal() + total_buffer * k_help_buffer * hero.getK_hero() * heroAnswer.getK_setting());
+                    try {
+                        DbHandlerP.getInstance().deleteProduct(playerPlay.getId());
+                        DbHandlerP.getInstance().addProduct(playerPlay);
+                    } catch (SQLException e) {
+                        e.printStackTrace();
+                    }
+                    Alert alert = new Alert(Alert.AlertType.INFORMATION);
+                    alert.setHeaderText("Персонаж");
+                    alert.setContentText("Вы угадали!");
+                    alert.showAndWait();
+                } else {
+                    Alert alert = new Alert(Alert.AlertType.INFORMATION);
+                    alert.setHeaderText("Персонаж");
+                    alert.setContentText("Вы не угадали!");
+                    alert.showAndWait();
                 }
             }
         });

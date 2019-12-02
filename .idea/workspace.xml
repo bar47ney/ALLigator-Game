@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="upDate">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/DbHandlerH.java" afterPath="$PROJECT_DIR$/src/sample/DbHandlerH.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/DbHandlerP.java" afterPath="$PROJECT_DIR$/src/sample/DbHandlerP.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/PlayGameWindowTwo.java" afterPath="$PROJECT_DIR$/src/sample/PlayGameWindowTwo.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -112,12 +113,11 @@
       <file leaf-file-name="RaitingWindow.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/RaitingWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1491">
-              <caret line="85" column="16" lean-forward="false" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="47" />
+            <state relative-caret-position="140">
+              <caret line="79" column="10" lean-forward="false" selection-start-line="79" selection-start-column="10" selection-end-line="81" selection-end-column="9" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#2669#2670#0" expanded="false" />
-                <element signature="e#2731#2732#0" expanded="false" />
+                <element signature="e#2669#2670#0" expanded="true" />
+                <element signature="e#2731#2732#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -126,13 +126,9 @@
       <file leaf-file-name="AboutWindow.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/AboutWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
+            <state relative-caret-position="350">
               <caret line="53" column="31" lean-forward="false" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#1497#1498#0" expanded="false" />
-                <element signature="e#1567#1568#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -147,11 +143,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayGameWindowTwo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PlayGameWindowTwo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/PlayGameWindowTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="140" column="41" lean-forward="true" selection-start-line="140" selection-start-column="41" selection-end-line="140" selection-end-column="41" />
+            <state relative-caret-position="132">
+              <caret line="136" column="24" lean-forward="true" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -162,12 +158,26 @@
       <file leaf-file-name="DbHandlerH.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/DbHandlerH.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-70">
-              <caret line="69" column="28" lean-forward="false" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
+            <state relative-caret-position="-1183">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
-                <marker date="1575119673722" expanded="true" signature="1528:1583" ph="SELECT id, n... heroes" />
-                <marker date="1575119673722" expanded="true" signature="2499:2606" ph="INSERT INTO Heroes... " />
-                <marker date="1575119673722" expanded="true" signature="3145:3176" ph="DELETE FROM " />
+                <marker date="1575299979254" expanded="true" signature="898:953" ph="SELECT id, n... heroes" />
+                <marker date="1575299979254" expanded="true" signature="1590:1697" ph="INSERT INTO Heroes... " />
+                <marker date="1575299979254" expanded="true" signature="2175:2206" ph="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DbHandlerP.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sample/DbHandlerP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+              <folding>
+                <marker date="1575299987738" expanded="true" signature="964:1009" ph="SELECT id, n... players" />
+                <marker date="1575299987738" expanded="true" signature="1592:1685" ph="INSERT INTO Players... " />
+                <marker date="1575299987738" expanded="true" signature="2108:2140" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -205,33 +215,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-              <folding>
-                <element signature="e#415#416#0" expanded="false" />
-                <element signature="e#440#441#0" expanded="false" />
-                <element signature="e#473#474#0" expanded="false" />
-                <element signature="e#501#502#0" expanded="false" />
-                <element signature="e#532#533#0" expanded="false" />
-                <element signature="e#559#560#0" expanded="false" />
-                <element signature="e#599#600#0" expanded="false" />
-                <element signature="e#631#632#0" expanded="false" />
-                <element signature="e#663#664#0" expanded="false" />
-                <element signature="e#691#692#0" expanded="false" />
-                <element signature="e#733#734#0" expanded="false" />
-                <element signature="e#767#768#0" expanded="false" />
-                <element signature="e#799#800#0" expanded="false" />
-                <element signature="e#827#828#0" expanded="false" />
-                <element signature="e#869#870#0" expanded="false" />
-                <element signature="e#903#904#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -261,10 +244,8 @@
         <option value="C:/SQLite/Program.java" />
         <option value="$PROJECT_DIR$/src/sample/HeroS.java" />
         <option value="$PROJECT_DIR$/src/sample/DbHandlerHS.java" />
-        <option value="$PROJECT_DIR$/src/sample/DbHandlerH.java" />
         <option value="$PROJECT_DIR$/src/sample/Program.java" />
         <option value="$PROJECT_DIR$/src/sample/Player.java" />
-        <option value="$PROJECT_DIR$/src/sample/DbHandlerP.java" />
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
         <option value="$PROJECT_DIR$/src/sample/Hero.java" />
         <option value="$PROJECT_DIR$/src/sample/MainWindow.java" />
@@ -273,6 +254,8 @@
         <option value="$PROJECT_DIR$/src/sample/AboutWindow.java" />
         <option value="$PROJECT_DIR$/src/sample/PlayGameWindow.java" />
         <option value="$PROJECT_DIR$/src/sample/PlayGameWindowTwo.java" />
+        <option value="$PROJECT_DIR$/src/sample/DbHandlerH.java" />
+        <option value="$PROJECT_DIR$/src/sample/DbHandlerP.java" />
       </list>
     </option>
   </component>
@@ -284,9 +267,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="976" />
-    <option name="height" value="1038" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -848,7 +832,7 @@
       <workItem from="1575290336326" duration="52000" />
       <workItem from="1575290425675" duration="67000" />
       <workItem from="1575290538583" duration="404000" />
-      <workItem from="1575290964824" duration="4071000" />
+      <workItem from="1575290964824" duration="7146000" />
     </task>
     <task id="LOCAL-00001" summary="upDate">
       <created>1575290610644</created>
@@ -861,7 +845,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56810000" />
+    <option name="totallyTimeSpent" value="59885000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -873,7 +857,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="976" height="1038" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -886,12 +870,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36514983" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3611416" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3006263" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.008333334" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1392,13 +1376,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/DbHandlerP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="73" column="32" lean-forward="false" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Program.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1476,18 +1453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/RaitingWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1491">
-          <caret line="85" column="16" lean-forward="false" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2669#2670#0" expanded="false" />
-            <element signature="e#2731#2732#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/MainWindow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="861">
@@ -1496,18 +1461,6 @@
             <element signature="imports" expanded="false" />
             <element signature="e#2734#2735#0" expanded="false" />
             <element signature="e#2794#2795#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/AboutWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="53" column="31" lean-forward="false" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1497#1498#0" expanded="false" />
-            <element signature="e#1567#1568#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1528,24 +1481,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/DbHandlerH.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/AboutWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
-          <caret line="69" column="28" lean-forward="false" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
+        <state relative-caret-position="350">
+          <caret line="53" column="31" lean-forward="false" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/RaitingWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="79" column="10" lean-forward="false" selection-start-line="79" selection-start-column="10" selection-end-line="81" selection-end-column="9" />
           <folding>
-            <marker date="1575119673722" expanded="true" signature="1528:1583" ph="SELECT id, n... heroes" />
-            <marker date="1575119673722" expanded="true" signature="2499:2606" ph="INSERT INTO Heroes... " />
-            <marker date="1575119673722" expanded="true" signature="3145:3176" ph="DELETE FROM " />
+            <element signature="e#2669#2670#0" expanded="true" />
+            <element signature="e#2731#2732#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/PlayGameWindowTwo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="140" column="41" lean-forward="true" selection-start-line="140" selection-start-column="41" selection-end-line="140" selection-end-column="41" />
+        <state relative-caret-position="132">
+          <caret line="136" column="24" lean-forward="true" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/DbHandlerH.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1183">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <marker date="1575299979254" expanded="true" signature="898:953" ph="SELECT id, n... heroes" />
+            <marker date="1575299979254" expanded="true" signature="1590:1697" ph="INSERT INTO Heroes... " />
+            <marker date="1575299979254" expanded="true" signature="2175:2206" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/DbHandlerP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+          <folding>
+            <marker date="1575299987738" expanded="true" signature="964:1009" ph="SELECT id, n... players" />
+            <marker date="1575299987738" expanded="true" signature="1592:1685" ph="INSERT INTO Players... " />
+            <marker date="1575299987738" expanded="true" signature="2108:2140" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
