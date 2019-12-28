@@ -9,14 +9,14 @@
   7. [Сonclusions](#7)
   <a name="1"></a>
  ## 1. Introduction
-Содержание данного документа описывает план тестирования приложения "ProjectALLigator". Цель проведения тестирования - проверка приложения в соответствии с SRS.
+The contents of this document describes an application testing plan "ProjectALLigator". Test purpose - application verification in accordance with SRS.
 <a name="2"></a>
  ## 2. Test object
 ### 1. Functional suitability
--   #### Функциональная полнота
-    Набор функций приложения должен покрывать все возможности, описанные в SRS.
--   #### Функциональная корректность
-    Приложение должно выполнять все заявленные функции корректно.
+-   #### Functional completeness
+    The application features should cover all the features described in SRS.
+-   #### Functional correctness
+    The application must perform all the declared functions correctly.
 -   #### Функциональная целесообразность.
     Отсутствуют не заявленные функции, которые бы мешали приложению выполнять первоначально поставленные задачи.
 ### 2. Ease of use
