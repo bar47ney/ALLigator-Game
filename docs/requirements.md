@@ -78,9 +78,9 @@ The user is provided with the following options:
   ##### 4.1 Game purpose <a name="4.1"></a>
 Collect the maximum possible number of points and solve all the characters.
   ##### 4.2 Rules of the game <a name="4.2"></a>
-  Need to register, log in and start the game. The game first selects a character from among the specified (if the user is a new player - all available characters will be loaded at the moment), and then it starts to display according to one characteristic of this character. The harder the character, the harder the hint and the less prompts were displayed, the more points the user, he is a player, can get. If the player does not guess the character, then the game leaves him among the unseen characters and further offers the player two options - continue the game or stop it. If the first option is selected, then the program will select another character from among unseen and the game will continue, if the second option - will exit the game.
+  You must register, log in account and start the game. At first the game will choose the character from among the not guessed. If the user is a new player, all available characters for the moment will be downloaded. Next, the game will begin to display on the screen one of characteristic of this character. The more complex is the character, the more difficult is the hint and the less they were displayed on the screen, the more points the player can get. If the player doesn't guess the character in the end, the game leaves this character among the number of not guessed, then the game offers the player two options: continue the game or stop it. If the first option is chosen, the programm will select another character from among the not guessed and the game will continue. If the second option is selected, the game will exit.
  ##### 4.3 Game difficulty <a name="4.3"></a>
  Сложность игры зависит от персонажа,подсказки и количества выведенных подсказок на экран. 
 ### 5. Analogs <a name="5"></a>
-Application Akinator.
-Akinator can read your mind and guess characters, which you conceived, for this he will ask you some questions. Think of a real or fictional character, and Akinator is trying to guess it.
+Application Akinator
+Akinator can read your mind and guess the character, which you have in mind, for this it will ask some questions. Think of a real or fictional character, and Akinator will try to guess it.
