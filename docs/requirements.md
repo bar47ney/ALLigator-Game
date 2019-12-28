@@ -81,5 +81,5 @@ Collect the maximum possible number of points and solve all the characters.
  ##### 4.3 Game difficulty <a name="4.3"></a>
  Сложность игры зависит от персонажа,подсказки и количества выведенных подсказок на экран. 
 ### 5. Analogs <a name="5"></a>
-Приложение Акинатор.
-Акинатор может читать ваши мысли и отгадывать персонажей, которых вы задумали, для этого он задаст вам несколько вопросов. Задумайте настоящего или выдуманного персонажа, а Акинатор попытается его отгадать.
+Application Akinator.
+Akinator can read your mind and guess characters, which you conceived, for this he will ask you some questions. Think of a real or fictional character, and Akinator is trying to guess it.
