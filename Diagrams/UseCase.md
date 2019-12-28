@@ -16,9 +16,9 @@
  
  # 1 Actors
  
-| Actor | Описание |
+| Actor | Description |
 |:--|:--|
-| Игрок | Пользователь, который может использовать весь функционал приложения |
+| Player | A user who can use all the functionality of the application |
 
 <a name="2"/>
 
@@ -31,9 +31,9 @@
 <a name="2.1.1"/>
 
 ### 2.1.1 Show game screen
-1. Нажав на кнопку "Начать игру", перед игроком появляется игровой экран. <br>
-2. На нём игроку предоставляется подсказка по загаданному игрой персонажу и возможность выбора дальнейшего действия: получить ещё подсказку или дать ответ.<br>
-3. Вариант использования завершается.
+1. By clicking on the button "Start the game", a game screen appears in front of the player. <br>
+2. The player is given a hint on it according to the character of the game and the ability to choose further action: пget another hint or give an answer.<br>
+3. Use Case Ends.
 
 <a name="2.1.2"/>
 
