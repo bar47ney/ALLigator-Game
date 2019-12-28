@@ -1,15 +1,15 @@
-# Диаграммы состояний
+# State diagrams
 
 # Содержание
-1. [Партия игры](#1)  
-2. [Конец игры](#2)
+1. [Game party](#1)  
+2. [End of the game](#2)
 
 <a name="1"/>
 
-# 1. Партия игры 
-![Партия игры](https://github.com/bar47ney/trtpo_two/blob/master/Images/state1_1.png)
+# 1. Game party
+![Game party](https://github.com/bar47ney/trtpo_two/blob/master/Images/state1_1.png)
 
 <a name="2"/>
 
-# 2. Конец игры
-![Конец игры](https://github.com/bar47ney/trtpo_two/blob/master/Images/state_two.png)
+# 2. End of the game
+![End of the game](https://github.com/bar47ney/trtpo_two/blob/master/Images/state_two.png)
