@@ -85,7 +85,7 @@ To test the application, you must manually verify each aspect of the test.
 
 <a name="6"></a>
 ## 6. Presentation of Results
-Test results are presented in the [document].(https://github.com/bar47ney/trtpo_two/blob/master/test/Test%20result.md).
+Test results are presented in the [document](https://github.com/bar47ney/trtpo_two/blob/master/test/Test%20result.md).
 
 <a name="7"></a>
 ## 7. Conclusion
