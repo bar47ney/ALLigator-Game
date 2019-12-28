@@ -17,16 +17,16 @@ The contents of this document describes an application testing plan "ProjectALLi
     The application features should cover all the features described in SRS.
 -   #### Functional correctness
     The application must perform all the declared functions correctly.
--   #### Функциональная целесообразность.
-    Отсутствуют не заявленные функции, которые бы мешали приложению выполнять первоначально поставленные задачи.
+-   #### Functional expediency.
+    There are no unclaimed functions that would prevent the application from performing its original tasks.
 ### 2. Ease of use
--   #### Доступность пользовательского интерфейса
-    Элементы управления объектами должны быть всегда доступны пользователю
--   #### Актуальность
-    Все изменения происходят в режиме реального времени
+-   #### UI Availability
+   Object controls should always be available to the user.
+-   #### Relevance
+    All changes occur in real time.
 <a name="3"></a>
 ## 3. The risks
-К рискам можно отнести:
+Risks include:
 - В случае отсутствия JVM на ПК, приложение не запустится
 - Отсутствие базы данных SQLite
 - Скорость обработки игровой логики зависит от процессора ПК
