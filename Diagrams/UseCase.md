@@ -1,16 +1,16 @@
-# Диаграмма вариантов использования
+# Use Case Diagram
 
-![Диаграмма вариантов использования](https://github.com/bar47ney/trtpo_two/blob/master/Images/use_case.png)
+![Use Case Diagram](https://github.com/bar47ney/trtpo_two/blob/master/Images/use_case.png)
 # Содержание
 
-1. [Актёры](#1) <br>
-2. [Варианты использования](#2) <br>
-    2.1. [Начать игру](#2.1) <br>
-      2.1.1 [Показать игровой экран](#2.1.1) <br>
-      2.1.2 [Отгадывание персонажей](#2.1.2) <br>
-      2.1.3 [Логическое завершение игры](#2.1.3) <br>
-    2.2. [Просмотр рейтинга](#2.2) <br>
-    2.3. [Просмотр правил игры](#2.3) <br>
+1. [Actors](#1) <br>
+2. [Use cases](#2) <br>
+    2.1. [Start the game](#2.1) <br>
+      2.1.1 [Show game screen](#2.1.1) <br>
+      2.1.2 [Character Guessing](#2.1.2) <br>
+      2.1.3 [Logical completion of the game](#2.1.3) <br>
+    2.2. [View rating](#2.2) <br>
+    2.3. [View Game Rules](#2.3) <br>
     
     <a name="1"/>
  
