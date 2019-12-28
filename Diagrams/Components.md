@@ -1,2 +1,2 @@
-# Диаграмма компонентов
-![Диаграмма компонентов](https://github.com/bar47ney/trtpo_two/blob/master/Images/Component1.png)
+# Component Diagram
+![Component Diagram](https://github.com/bar47ney/trtpo_two/blob/master/Images/Component1.png)
