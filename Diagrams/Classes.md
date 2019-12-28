@@ -1,3 +1,3 @@
-# Диаграмма классов
+# Class diagram
 
-![Диаграмма классов](https://github.com/bar47ney/trtpo_two/blob/master/Images/class4.png)
+![Class diagram](https://github.com/bar47ney/trtpo_two/blob/master/Images/class4.png)
