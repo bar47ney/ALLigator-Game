@@ -33,7 +33,7 @@ Risks include:
 - Occurrence of errors, processing related DB
 <a name="4"></a>
  ## 4. Testing Aspects
-В ходе тестирования должна быть проверена реализация основных функций приложения, к которым относятся:  
+During testing should be checked implementation of the main functions of the application:  
 1. Начать игру
 2. Регистрация
 3. Вход в аккаунт
