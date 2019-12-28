@@ -38,16 +38,16 @@
 <a name="2.1.2"/>
 
 ### 2.1.2 Character Guessing
-1. Игрок выбирает с помощью компьютерной мышки кнопку "Получить подсказку" или "Дать ответ".
-2. Вариант использования завершается.
+1. The player selects a button using a computer mouse "Get a hint" or "Give an answer".
+2. Use Case Ends.
 
 <a name="2.1.3"/>
 
 ### 2.1.3 Logical completion of the game
-1. Игрок отгадывает или не отгадывает песронажа. 
-2. Появляется соответсвующая надпись "Вы угадали!/Вы не угадали!".
-3. Появляется окно, предлагающее продолжить игру, предоставив игре загадать нового персонажа, или выход в главное меню.
-4. Вариант использования завершается
+1. The player guesses or does not guess the song. 
+2. The corresponding inscription appears. "You guessed!/You did not guess!".
+3. A window appears, offering to continue the game, letting the game make a new character, or exit to the main menu.
+4. Use Case Ends.
 
 <a name="2.2"/>
 
