@@ -27,10 +27,10 @@ The contents of this document describes an application testing plan "ProjectALLi
 <a name="3"></a>
 ## 3. The risks
 Risks include:
-- В случае отсутствия JVM на ПК, приложение не запустится
-- Отсутствие базы данных SQLite
-- Скорость обработки игровой логики зависит от процессора ПК
-- Возникновение ошибок, связанных с обработкой БД
+- If there is no JVM on the PC, the application will not start
+- Missing SQLite Database
+- The processing speed of the game logic depends on the PC processor
+- Occurrence of errors, processing related DB
 <a name="4"></a>
  ## 4. Testing Aspects
 В ходе тестирования должна быть проверена реализация основных функций приложения, к которым относятся:  
