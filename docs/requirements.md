@@ -1,6 +1,6 @@
 # Project requirements
 ---
-### Содержание
+### Contents
 1. [Introduction](#1)
 2. [User requirements](#2) <br>
   2.1. [Software interfaces](#2.1) <br>
@@ -23,20 +23,20 @@ Do you like Kit Harington from Winterfell? Do you adore listening to Rihanna and
 
 ### 2. User requirements <a name="2"></a>
 #### 2.1. Software interfaces <a name="2.1"></a>
-The game is being developed in Java.
-Character information is stored in the SQLite database. The game has an intuitive interface developed in JavaFX.
+The game is developing in Java.
+The information about characters is stored in the SQLite database. The game is provided with intuitive interface developed by JavaFX.
 
 #### 2.2. User interface <a name="2.2"></a>
   
 - Main menu
 
-In the main menu, the user can register, log in to the account (if any), view the rating of players, the rules of the game and exit the program.
+In the main menu a user can register, log in to the account ( if any available ), see the rating of players, the rules of the game and exit the program
 
 ![MenuScreen](https://github.com/bar47ney/trtpo_two/blob/master/11.png)
   
-- Player Rating
+- Rating of players
 
-In this window you can see the rating of players - their names and the number of points.
+In this window you can see the rating of players - their names and a number of points.
 ![RaitingScreen](https://github.com/bar47ney/trtpo_two/blob/master/22.png)
   
 - Login window
