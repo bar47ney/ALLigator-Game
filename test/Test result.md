@@ -5,8 +5,8 @@
 |3. Вход в аккаунт|Нажатие на конпку "Вход"|Вход в зарегестрированный аккаунт|При нажатии кнопки "Вход" всплыло сообщение об успешном входе |выполнено |
 |4. Угадать персонажа|Угадывание персонажа во время игрового процесса|Появление окна с тесктом "Вы угадали!"|Появилось окно с текстом "Вы угадали!"|successful |
 |5. Не угадать персонажа|Не угадывание персонажа во время игрового процесса|Появление окна с тесктом "Вы не угадали!"|Появилось окно с текстом "Вы не угадали!" |successful| |
-|6. Ознакомиться с правилами игры|Нажатие на кнопку "Правила игры" в меню|Открытие окна с текстом инструкции к игре|Открылось окно с правилами игры|successful|
-|7. Выход в меню после окончания игры|После окончания игры нажать на кнопку "Меню" для возврата в главное меню|Открытие окна с главным меню|не открылось основное меню с приложения|failed|
-|8. Сыграть еще раз после окончания игры|В отобразившимся окне с результатом игры нажать кнопку "Сыграть снова"|Появление окна с кнопкой "Загадать персонажа" |отсутствует кнопка "Сыграть снова" |failed |
-|9. Закрыть приложение|Нажатие на кнопку "Выйти" в главном меню|Завершение работы приложения. Закрытие всех окон приложения|при нажатии,окно закрылось|successful|
+|6. Read the rules of the game|Clicking on the "Game Rules" button in the menu|Opening a window with text instructions for the game|A window with the rules of the game has opened|successful|
+|7. Exit to the menu after the end of the game|After the end of the game, press the "Menu" button to return to the main menu|Opening a window with the main menu|the main menu from the application did not open|failed|
+|8. Play again after the end of the game|In the displayed window with the result of the game, click the "Play Again" button|The appearance of the window with the button "Make a Character"|missing "Play again" button |failed |
+|9. Close application|Pressing the "Exit" button in the main menu|Shutting down the application. Close all application windows|When clicked, the window closed|successful|
 
