@@ -16,8 +16,9 @@
 5. [Analogs](#5) <br>
 
 ### 1. Introduction <a name="1"></a>
-Project ALLigator - single-player arcade game,in which the player will have to guess the characters on the pop-up tips.
-Love Keith Harington from Wintrefell? Love to listen to Rihanna and sing along to Kirkorov? Buzova - Your favorite singer? How well do you know them? Can you recognize your favorite actor or singer based only on the facts from their biography? Project ALLigator will test you!
+Project ALLigator - single-player arcade game,in which a player has to guess characters using pop-up clues.
+Do you like Kit Harington from Winterfell? Do you adore listening to Rihanna and singing along to Kirkorov? Is Buzova your favourite singer? How well do you know them? Can you guess your favourite actor or singer building on facts from their biography?
+(A Project ALLigator) will check you!
 
 
 ### 2. User requirements <a name="2"></a>
