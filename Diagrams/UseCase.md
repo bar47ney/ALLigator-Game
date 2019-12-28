@@ -52,13 +52,13 @@
 <a name="2.2"/>
 
 ## 2.2 View rating
-1. Игрок выбирает в главном меню раздел "Просмотр рейтинга".
-2. Пред игроком появляется окно со списком всех игроков и их количеством очков.
-3. Вариант использования завершается.
+1. The player selects the "View Rating" section in the main menu.
+2. A window appears in front of the player listing all the players and their points..
+3. Use Case Ends.
 
 <a name="2.3"/>
 
 ## 2.3 View Game Rules
-1. Игрок выбирает в главном меню раздел "Правила игры".
-2. Перед игроком появляется новое окно с правилами игры.<br>
-3. Вариант использования завершается.
+1. The player selects the "Game Rules" section in the main menu.
+2. A new window appears in front of the player with the rules of the game.<br>
+3. Use Case Ends.
