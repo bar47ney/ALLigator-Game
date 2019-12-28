@@ -34,15 +34,15 @@ Risks include:
 <a name="4"></a>
  ## 4. Testing Aspects
 During testing should be checked implementation of the main functions of the application:  
-1. Начать игру
-2. Регистрация
-3. Вход в аккаунт
-4. Угадать персонажа
-5. Не угадать персонажа
-6. Ознакомиться с правилами игры
-7. Выход в меню после окончания игры
-8. Сыграть еще раз после окончания игры
-9. Закрыть приложение
+1. Start the game
+2. Registration
+3. Sign In
+4. Guess the character
+5. Do not guess the character
+6. Read the rules of the game
+7. Exit to the menu after the end of the game 
+8. Play again after the end of the game
+9. Close application
 
 ### Functional requirements:
 #### 1. Start the game
@@ -51,7 +51,7 @@ During testing should be checked implementation of the main functions of the app
 #### 2. Registration
 Этот вариант использования небходимо протестировать на возможность зарегестрироваться.
 
-#### 3. Account Login
+#### 3. Singn In
 Этот вариант использования небходимо протестировать на возможность войти в свой аккаунт.
 
 #### 4. Guess the character
