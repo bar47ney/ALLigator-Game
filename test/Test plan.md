@@ -46,50 +46,49 @@ During testing should be checked implementation of the main functions of the app
 
 ### Functional requirements:
 #### 1. Start the game
-Этот вариант использования небходимо протестировать на возможность начать игру.
+This use case needs to be tested for the ability to start the game.
 
 #### 2. Registration
-Этот вариант использования небходимо протестировать на возможность зарегестрироваться.
+This use case needs to be tested for the ability to register.
 
 #### 3. Singn In
-Этот вариант использования небходимо протестировать на возможность войти в свой аккаунт.
+This use case must be tested for the ability to log into your account.
 
 #### 4. Guess the character
-Этот вариант использования небходимо протестировать при попытке угадать персонажа.
+This use case must be tested when trying to guess the character.
 
 #### 5. Do not guess the character
-Этот вариант использования небходимо протестировать при попытке угадать персонажа.
+This use case must be tested when trying to guess the character.
 
 #### 6. Read the rules of the game
-Этот вариант использования небходимо протестировать на возможность отображения правил игр при нажатии на кнопку меню "Правила игры".
+This use case needs to be tested for the ability to display game rules when you click on the "Game Rules" menu button.
 
 #### 7. Exit to the menu after the end of the game
-Этот вариант использования небходимо протестировать на возможность после кончания игры нажать кнопку "Меню".
+This use case needs to be tested for the ability to press the "Menu" button after the end of the game.
 
 #### 8.Play again after the end of the game
-Этот вариант использования небходимо протестировать на возможность после кончания игры нажать кнопку "Продолжить игру" и продолжить игру.
+This use case needs to be tested for the possibility of clicking the "Continue the game" button and continue the game after the end of the game.
 
 #### 9. Close application
-Этот вариант использования небходимо протестировать при нажатии на кнопку в главном меню "Выход". В данном случае работа приложения должна завершиться.
+This use case must be tested by clicking on the button in the "Exit" main menu. In this case, the application should end.
 
 ### Non-functional requirements:
 #### 1. Clear gameplay
-Понимание того, что надо делать после одной-трех игр.
+Understanding what to do after one or three games.
 
 #### 2. Performance
-Отсутствие фризов во время использования приложения
+Lack of friezes while using the application.
 
 <a name="5"></a>
 ## 5. Testing Approaches
-Для тестирования приложения необходимо вручную проверить каждый аспект тестирования.
+To test the application, you must manually verify each aspect of the test.
 
 <a name="6"></a>
 ## 6. Presentation of Results
-Результаты тестирования представлены в [документе](https://github.com/bar47ney/trtpo_two/blob/master/test/Test%20result.md).
+Test results are presented in the [document].(https://github.com/bar47ney/trtpo_two/blob/master/test/Test%20result.md).
 
 <a name="7"></a>
 ## 7. Conclusion
-Данный тестовый план позволяет протестировать основной функционал приложения. Успешное прохождение всех тестов с высокой вероятностью можно говорить о хорошей работоспособности, и о том, что данное программное обеспечение работает корректно.
-
+This test plan allows you to test main application functionality. Successful completion of all tests with high probability can talk about good performance.
     
 
